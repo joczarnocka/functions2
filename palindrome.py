@@ -1,2 +1,2 @@
 def is_palindrom(word):
-    pass
+    return word[::-1] == word
