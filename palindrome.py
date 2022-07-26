@@ -7,3 +7,9 @@ def is_palindrom(word):
         word
     """
     return word[::-1] == word
+
+
+if __name__ == "__main__":
+    print(is_palindrom("kajak"))
+    print(is_palindrom("123456789o987654321"))
+    print(is_palindrom("niekajak"))
